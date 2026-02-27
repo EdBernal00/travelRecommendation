@@ -45,12 +45,49 @@
         </a>
       </div>
 
-      <div class="hero-content">
-        <h1 class="hero-title">CONTACT US</h1>
-        <p class="hero-description">
-          Get in touch with us! We'd love to hear from you and help plan your
-          next adventure.
-        </p>
+            <div class="contact-container">
+        <div class="contact-header">
+          <h1 class="contact-title">GET IN<br />TOUCH</h1>
+        </div>
+
+        <div class="contact-form-wrapper">
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                placeholder="Your name"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input 
+                type="email" 
+                id="email" 
+                name="email" 
+                placeholder="Your email address"
+                required
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea 
+                id="message" 
+                name="message" 
+                rows="5" 
+                placeholder="Tell us about your travel dreams..."
+                required
+              ></textarea>
+            </div>
+
+            <button type="submit" class="submit-btn">SEND MESSAGE</button>
+          </form>
+        </div>
       </div>
     </main>
   </body>
